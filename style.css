@@ -1,0 +1,111 @@
+html {
+    background-color: DarkSalmon;
+    font-family: cursive;
+}
+
+.firstHead {
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    margin-top: 0rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.secondHead {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.secondMenuHead {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.para1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: white;
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem;
+    border-radius: 0.8rem;
+    border: 2px solid crimson;
+    transition-duration: 0.3s;
+    display: block;
+    margin: 1.3rem auto;
+    font-family: cursive;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.menu {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.Item {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    border: crimson;
+    border-style: groove;
+    border-radius: 0.8rem;
+    z-index: 10;
+    background-color: DarkSalmon;
+}
+
+.overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(0.3rem);
+    z-index: 5;
+}
+
+.close-modal {
+    /*x button*/
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.signup {
+    text-align: center;
+}
+
+.sign {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
